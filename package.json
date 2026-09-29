@@ -1,0 +1,13 @@
+{
+  "name": "frontend-interview",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:js": "node --test \"exercises/js/*.test.js\"",
+    "test:ts": "tsc -p exercises/ts --noEmit",
+    "test": "npm run test:js && npm run test:ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
